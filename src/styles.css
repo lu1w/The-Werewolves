@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(41, 33, 93);
+    font-family: "Bona Nova SC", serif;
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.character-name {
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+#character-param {
+    display: grid;
+    grid-template-columns: 2fr 3.5fr 2fr;
+    gap: 7px;
+}
+
+#character-param .character-name {
+    grid-column: 1 / -1;
+}
+
+#character-param button { /* for increment and decrement of the number of character  */
+    background-color: transparent;
+    color: white;
+    font-size: x-large;
+    padding: 0 5px;
+    border-width: 0;
+}
+
+#character-param .mouse-hover { /* for increment and decrement of the number of character  */
+    background-color: rgb(66, 66, 66);
+}
+
+#character-param #param {
+    background-color: rgba(255, 255, 255); 
+    text-align: center;
+    padding-top: 1px;
+    border-radius: 5px;
+    margin: 0 2px;
+}
+
+/* google font "Bona Nova SC" ---------- */
+
+/* .bona-nova-sc-regular {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bona-nova-sc-bold {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bona-nova-sc-regular-italic {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: italic;
+} */

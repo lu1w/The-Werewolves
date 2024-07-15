@@ -1,2 +1,12 @@
+# Personal notes
 _*.txt
+vite-project/
+
+# Imports
 node_modules/
+
+# Debugger
+.eslintrc.cjs
+
+# System files
+.DS_Store

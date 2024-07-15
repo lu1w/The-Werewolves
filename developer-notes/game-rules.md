@@ -1,4 +1,4 @@
-# Character cards 
+# Characters 
 (copied from https://steamcommunity.com/sharedfiles/filedetails/?id=353579375; the characters will be gradually implemented)
 
 ### Characters who belong to the werewolf pack or are very likely to join it:
